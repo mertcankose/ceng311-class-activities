@@ -1,0 +1,55 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position: absolute;
+	top:0;
+	left:10px;
+
+}
+.body {
+	width: 70%;
+}
+
+.image img {
+	width:250px;
+	height:250px;
+	
+}
+.image {
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.logo {
+	margin-left: 140px;
+	float: left;
+	
+}
+.title {
+	margin-left: 140px;
+	float: left;
+	font-size: 22px;
+
+}
+.content {
+	float: left;
+	width: 80%;
+	margin-top: 100px;
+	overflow:auto;
+	margin-left: 120px;
+}
+.main {
+	font-size: 26px;
+	margin:10px;
+	
+
+}
+.head {
+
+	
+}

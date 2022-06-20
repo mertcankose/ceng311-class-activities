@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Activity-8</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./Activity8.css">
+</head>
+<body>
+
+	<form action="/">
+		<div class="container">
+			<label for="language">What programming language do you know?</label>
+			<input id="language" type="text" required />
+		</div>
+		
+		<div class="container">
+			<label for="birthday">What is your birthday?</label>
+			<input id="birthday" type="text">
+		</div>
+		
+		<div class="container">
+			<label for="email">Email Address</label>
+			<input id="email" type="email" placeholder="Enter a valid email address" required>
+		</div>
+		
+		<div class="container">
+			<label for="website">Website</label>
+			<input id="website" type="url" required pattern="https?://.+">
+		</div>
+		<button type="submit">submit</button>
+	</form>
+
+
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="./Activity8.js"></script>
+
+</body>
+</html>
